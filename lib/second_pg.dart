@@ -69,6 +69,7 @@ class _SegundaPaginaState extends State<SegundaPagina> {
         onPressed: () {
           Navigator.pop(context);
         },
+        //Esse filho do floataction indica o ícone de voltar dentro do botão
         child:
             //Icon(Icons.arrow_back_ios),
             Text("Back"),
